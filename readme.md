@@ -9,4 +9,4 @@ I am interested in database management
 ## Something Interesting About You
 I played basketball very well in high school, but after gaining weight, I rarely play it.
 h2 Git-It Badge
-Place your Git-It Tutorial badge image here
+![Image of Git-It Badge](images/git-it-Tutorial.png "Image of Git-It Badge")
