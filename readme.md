@@ -1,6 +1,6 @@
 # Qiang Bao
 
-![Image of Qiang Bao](images/me.JPG "Image of Qiang Bao")
+![Image of Qiang Bao](images/me.jpg "Image of Qiang Bao")
 a picture of something that describes you
 ## where are you from
 From China, a distant eastern country.
