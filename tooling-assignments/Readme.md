@@ -113,17 +113,22 @@ This Readme.md will contain these elements written in Markdown. This is a good [
 
 The document will include:
 
-* h1 with your name
-  * a picture of you
-  * a picture of something that describes you
-* h2 Where are you from?
-  * Tell us where you are from
-* h2 IT Interests
-  * Tell us what you IT Interests and or skills are
-* h2 Something Interesting About You
-  * Tell us something interesting about you
-* h2 Git-It Badge
-  * Place your Git-It Tutorial badge image here.
+# Qiang Bao
+
+![Image of Qiang Bao](images/me.jpg "Image of Qiang Bao")
+![Image of Car](images/car.jpg "Image of Car")
+
+## where are you from
+From China, a distant eastern country.
+
+## IT Interests
+I am interested in database management
+
+## Something Interesting About You
+I played basketball very well in high school, but after gaining weight, I rarely play it.
+
+## Git-It Badge
+![Image of Git-It Badge](images/git-it-Tutorial.png "Image of Git-It Badge")
 
 Push this to your GitHub private account repo.
 
