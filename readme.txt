@@ -1,11 +1,12 @@
-h1 with your name
+# Qiang Bao
+
 a picture of you
 a picture of something that describes you
-h2 Where are you from?
-Tell us where you are from
-h2 IT Interests
-Tell us what you IT Interests and or skills are
-h2 Something Interesting About You
-Tell us something interesting about you
+## where are you from
+From China, a distant eastern country.
+## IT Interests
+I am interested in database management
+## Something Interesting About You
+I played basketball very well in high school, but after gaining weight, I rarely play it.
 h2 Git-It Badge
 Place your Git-It Tutorial badge image here
