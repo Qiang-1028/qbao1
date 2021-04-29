@@ -9,6 +9,7 @@ If you have not already signed up for a [GitHub.com](https://github.com "Github.
 ## Package Managers for Windows and MacOS
 
 Brew is the MacOS 3rd party package manager located at: [https://brew.sh/](https://brew.sh/ "brew installer page").  [Chocolatey.org](https://chocolatey.org/ "Chocolatey.org download page") is the Windows 3rd party package manager. Install the proper package manager for your system. Place a screenshot of the version command output for: ```choco --version``` or ```brew --version```.
+
 ![Image of brew--version](images/brew--version.png "Image of brew--version")
 
 ## Installation of PowerShell Core for Windows
