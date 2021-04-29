@@ -21,6 +21,8 @@ Using Chocolatey (choco) install [PowerShell Core 7.1.1](https://chocolatey.org/
 Using Homebrew install Bash 5.0+ on MacOS and activate it to replace Bash 3.x
 [https://www.ioannispoulakas.com/2019/03/10/how-to-install-bash-5-on-macos/](https://www.ioannispoulakas.com/2019/03/10/how-to-install-bash-5-on-macos/ "Replace Bash 3 with 5 MacOS"). For Mac, you have Bash and SSH already installed, take a screenshot of the output of ```ssh -V``` and ```bash --version```
 
+![Image of bash5](images/bash5.png "Image of bash5")
+
 ## Installation of a Terminal for Windows
 
 A Terminal is a way to run multiple shell and cmd line windows in a single managed window.
@@ -32,6 +34,8 @@ A Terminal is a way to run multiple shell and cmd line windows in a single manag
 A Terminal is a way to run multiple shell and cmd line windows in a single managed window.  You can install iterm2 via Homebrew.
 
 [iterm2](https://iterm2.com/ "MacOS shell terminal")
+
+![Image of iterm2](images/iterm2.png "Image of iterm2")
 
 ## Install Git
 
@@ -46,25 +50,39 @@ git config --global user.name "<Your Name>"
 git config --global user.email "<youremail@example.com>"
 ```
 
+![Image of git](images/git.png "Image of git")
+
 ## Install VirtualBox
 
 If you do not already have VirtualBox 6.x installed, use the package manager to install VirtualBox.  Take a screenshot of the VirtualBox > Help > About VirtualBox output. You can use Chocolatey and Homebrew to install VirtualBox on MacOS and Windows.
+
+![Image of vb](images/virtualbox.png "Image of vb")
 
 ## Install Vagrant
 
 Using a package manager, install the latest version of [Vagrant](https://vagrantup.com "Vagrant download site").  If you have a version 2.2.x you will be ok.  Note, if on Linux, do not use the built in package manager as these versions of Vagrant and Packer are too old and unmaintained.  Place a screenshot of the output of the command: ```vagrant --version```
 
+![Image of vagrant--version](images/vagrant--version.png "Image of vagrant--version")
+
 Complete the Vagrant tutorial located at [https://learn.hashicorp.com/collections/vagrant/getting-started](https://learn.hashicorp.com/collections/vagrant/getting-started "Vagrant tutorial"), you can skip the INSTALL section as we are installing using a package manager and skip the SHARE ENVIRONMENT section.  
 
 After completing this tutorial take a screenshot of the output of the command ```vagrant box list```
+
+![Image of vagrant box list](images/vagrant.png "Image of vagrant box list")
 
 ## Install Packer.io
 
 Using a package manager, install the latest version of [Packer](https://packer.io "Packer install site").  If you have a version > 1.6.x you will be ok. Note, if on Linux, do not use the built in package manager as these versions of Vagrant and Packer are too old and unmaintained.  Place a screenshot of the output of the command: ```packer --version```
 
+
+![Image of packer--version](images/packer--version.png "Image of packer--version")
+
 I have a series of samples that I use from Packer to build images.  Clone this sample repo to your computer: ```git clone https://github.com/jhajek/packer-vagrant-build-scripts```  navigate to the ```packer/vanilla-install``` directory from the command line.  Issue the command: ```packer build ubuntu18045-vanilla.json```
 
 Take a screenshot of the output of the ```build``` directory showing the ```*.box``` file.  In the ```build``` directory, create a directory named **ubuntu-vanilla**.  ```cd``` into that directory and issue the ```vagrant init``` command:
+
+
+![Image of build](images/build.png "Image of build")
 
 ## Install IDE editor
 
@@ -84,6 +102,8 @@ After installing an IDE editor of your choice, pick one of the listed or you can
 Download, extract, and execute the Git-It tutorial, located: [https://github.com/jlord/git-it-electron/releases](https://github.com/jlord/git-it-electron/releases "Git-It release tutorial").  The program runs as an executable so there is no installation needed and is cross platform.  The program does require you to have completed and configured Git, which we did in a previous step.  
 
 Post a screenshot of your completion badge (or dots) after you finish the tutorial.
+
+![Image of dots](images/dots.png "Image of dots")
 
 ## Create and Push your Readme.md
 
