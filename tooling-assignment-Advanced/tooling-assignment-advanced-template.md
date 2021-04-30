@@ -4,7 +4,7 @@ Provide the required screenshots to show that tooling has been properly installe
 
 ## Hostname
 
-Image goes here
+Image goes her
 
 ## MariaDB Version
 
