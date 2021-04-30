@@ -36,9 +36,12 @@ Execute command: `R -v`
 ## Python Version
 
 Execute command: `python -V`
+
 ![Image of pyv](images/pyv.png "Image of pyv")
 
 ## Result of Cloning Your Private Repository
 
 No need to show the clone action -- just the results
 Image goes here
+
+![Image of git](images/git.png "Image of git")
