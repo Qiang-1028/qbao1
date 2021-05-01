@@ -84,18 +84,33 @@ Using the two sample .csv files provided in this repo, add them to your own priv
 
 - Ingest company-data.csv to a dataframe
   - Use a `df.show()` command to display the content of the dataframe
+
+![Image of ingest1](images/ingest1.png "Image of ingest1")
+
 - Ingest additional-company-data.csv to a dataframe
   - Use a `df.show()` command to display the content of the dataframe
+
+![Image of ingest2](images/ingest2.png "Image of ingest2")
+
 - Create a dataframe each to contain the data read in from the CSV files
 - Within those dataframes, create a new column named **fullname**, that includes a combination of the firstname and lastname fields, separated by a space.  
   - For example: Hajek, Jeremy becomes Jeremy Hajek
 - Remove the **ssn** column from the dataframes (not real SSNs)
 - Union the results
 - Use a `df.show()` command to display the modified dataframe and the union
+
+![Image of union3](images/union3.png "Image of union3")
+
 - Use the `printSchema()` on the dataframe to display the schema
+
+![Image of schema4](images/schema4.png "Image of schema4")
+
   - [Spark Java Dataset API for .printSchema()](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/Dataset.html#printSchema-- "Spark Java API for printSchema")
   - [Python Dataframe API for .printSchema()](https://spark.apache.org/docs/latest/api/python/pyspark.sql.html?highlight=printschema#pyspark.sql.DataFrame.printSchema "Python Spark API for printSchema")
 - Using the Spark API - sort the combined dataframe via the content of the **status** column using the `.sort()` method. Display the sorted content using the `df.show()` command
+
+![Image of sort](images/sort.png "Image of sort")
+
   - [Spark Python Dataframe API](https://spark.apache.org/docs/latest/api/python/pyspark.sql.html?highlight=printschema#pyspark.sql.DataFrame "Spark Dataframe API webpage")
   - [Spark Java Dataset API](https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/Dataset.html "Spark Dataset API webpage")
 
