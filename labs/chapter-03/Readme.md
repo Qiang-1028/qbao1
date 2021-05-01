@@ -27,6 +27,7 @@ Screenshot here
 Place screenshot of a successful execution output of the results of the `df.show()` and or any `system.out.println()` commands.
 
 Screenshot here
+
 ![Image of 210tree](images/210tree.png "Image of 210tree")
 ![Image of 210string](images/210string.png "Image of 210string")
 ![Image of 210json](images/210json.png "Image of 210json")
