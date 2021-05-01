@@ -1,0 +1,66 @@
+package net.jgp.books.spark.ch03.summary;
+
+import static org.apache.spark.sql.functions.concat;
+import static org.apache.spark.sql.functions.lit;
+
+import org.apache.spark.Partition;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.Row;
+import org.apache.spark.sql.SparkSession;
+
+
+/**
+ * chapter03
+ *
+ * @author Qiang
+ */
+public class Summary {
+
+  /**
+   * main() is your entry point to the application.
+   *
+   * @param args
+    Summary app =
+        new Summary();
+    app.start();
+  /**
+   * The processing code.
+   */
+  private void start() {
+    // Creates a session on a local master
+    SparkSession spark = SparkSession.builder()
+        .appName("Company-Data")
+        .master("local")
+        .getOrCreate();
+
+    // Reads a CSV file with header, called
+    // company-data.csv,
+    // stores it in a dataframe
+    Dataset<Row> df = spark.read().format("csv")
+        .option("header", "true")
+        .load("data/company-data.csv");
+
+    Dataset<Row> df_additional = spark.read().format("csv")
+        .option("header", "true")
+        .load("data/additional-company-data.csv");
+
+    df = df.withColumn("fullname", concat(df.col(" Firstname"), lit(" "), df.col("Lastname")));
+    df_additional = df_additional.withColumn("fullname", concat(df_additional.col(" Firstname"), lit(" "), df_additional.col("Lastname")));
+
+
+
+    df = df.drop(" ssn");
+    df_additional = df_additional.drop(" ssn");
+
+    System.out.println("*** After combination and remove");
+
+    Dataset<Row> df_union = df.unionByName(df_additional);
+
+    df_union.sort(" status");
+
+    df_union.show();
+    df_union.printSchema();
+//    df.printSchema();
+
+  }
+}
