@@ -8,7 +8,7 @@ You will copy this template file to your own private GitHub repo provided.  Unde
 - Demonstrate the advantages of "BigData" data types vs. conventional text based types
 - Demonstrate the the application of compression and its advantages in dealing with large files
 
-## Your name goes here
+## Qiang Bao
 
 ### Lab
 
