@@ -36,11 +36,11 @@ You will write one Spark application, in Java or Python that will work with the 
   - show number of records
   - show schema
 
-- Read Json file singleline compressed lz4
+- ###Read Json file singleline compressed lz4
   - show number of records
   - show schema
 
-- Read Json file singleline compressed snappy
+- ###Read Json file singleline compressed snappy
   - show number of records
   - show schema
 
