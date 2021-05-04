@@ -55,7 +55,7 @@ You will write one Spark application, in Java or Python that will work with the 
   - show number of records
   - show schema
 
-  **** Something wrong with sample code ****
+  **** Something wrong with the sample code ****
 
 
 
@@ -110,8 +110,8 @@ You will write one Spark application, in Java or Python that will work with the 
 - Read XML file
   - show schema
   - save as parquet
-  ![Image of 11](images/11.png "Image of 11") 
 
+  ![Image of 11](images/11.png "Image of 11") 
   ![Image of 11-savedfile](images/11-savedfile.png "Image of 11-savedfile") 
 
 #### Building Instructions
