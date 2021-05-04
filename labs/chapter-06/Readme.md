@@ -55,23 +55,40 @@ df2.withColumn('WeatherStation', df2['value'].substr(5, 6)) \
 - Save this as a .csv uncompressed to the location: `.save("hdfs://namenode/user/controller/output/your-hawk-id-here/00/save-file-action")`  (00 is whichever dataset you were assigned to)
 - Open the newly saved CSV file for reading again and print the schema and .count() values
   - Place screenshot
+
+  ![Image of csv](images/csv.png "Image of csv") 
+
 - Save the dataframe as a csv file compressed with snappy
 - Open the newly saved compressed csv snappy file and print the schema and .count() values
   - Place screenshot
+
+  ![Image of csvsnappy](images/csvsnappy.png "Image of csvsnappy") 
+  
 - Save the dataframe as a JSON uncompressed file
 - Open the newly saved JSON file for reading again and print the schema and .count() values
   - Place screenshot
+# record in nohup.out
+  ![Image of 1](images/1.png "Image of 1") 
+
 - Save the dataframe as a JSON file compressed with snappy
 - Open the newly saved compressed JSON file and print the schema and .count() values
   - Place screenshot
+# record in log_json_snappy
+  ![Image of 1](images/1.png "Image of 1") 
+
 - Save the dataframe as an XML file
 - Open the newly saved XML file for reading again and print the schema and .count() values
   - Place screenshot
+# record in log_xml
+  ![Image of 1](images/1.png "Image of 1") 
+
 - Save the dataframe as a Parquet file
 - Open the newly saved Parquet file for reading, create three additional columns splitting the
 **ObservationDate** column into, **year**, **month**, **date** columns.
   - Print the schema
   - Place screenshot
+# record in log_parquet
+  ![Image of 1](images/1.png "Image of 1") 
 
 ### Notes
 
