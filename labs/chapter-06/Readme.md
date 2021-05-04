@@ -73,8 +73,8 @@ df2.withColumn('WeatherStation', df2['value'].substr(5, 6)) \
 - Save the dataframe as a JSON file compressed with snappy
 - Open the newly saved compressed JSON file and print the schema and .count() values
   - Place screenshot
-# record in log_json_snappy
-  ![Image of 1](images/1.png "Image of 1") 
+
+  ![Image of json_snappy](images/json_snappy.png "Image of json_snappy") 
 
 - Save the dataframe as an XML file
 - Open the newly saved XML file for reading again and print the schema and .count() values
