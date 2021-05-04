@@ -67,8 +67,8 @@ df2.withColumn('WeatherStation', df2['value'].substr(5, 6)) \
 - Save the dataframe as a JSON uncompressed file
 - Open the newly saved JSON file for reading again and print the schema and .count() values
   - Place screenshot
-# record in nohup.out
-  ![Image of 1](images/1.png "Image of 1") 
+
+  ![Image of json](images/json.png "Image of json") 
 
 - Save the dataframe as a JSON file compressed with snappy
 - Open the newly saved compressed JSON file and print the schema and .count() values
