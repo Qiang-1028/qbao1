@@ -51,14 +51,19 @@ You will write one Spark application, in Java or Python that will work with the 
   ![Image of 5](images/5.png "Image of 5") 
 
 
-- ###Read Json file singleline compressed lz4
+- Read Json file singleline compressed lz4
   - show number of records
   - show schema
 
+  **** Something wrong with sample code ****
 
-- ###Read Json file singleline compressed snappy
+
+
+- Read Json file singleline compressed snappy
   - show number of records
   - show schema
+
+  **** Something wrong with the sample code ****
 
 - Read xml file
   - show number of records
@@ -106,6 +111,7 @@ You will write one Spark application, in Java or Python that will work with the 
   - show schema
   - save as parquet
   ![Image of 11](images/11.png "Image of 11") 
+
   ![Image of 11-savedfile](images/11-savedfile.png "Image of 11-savedfile") 
 
 #### Building Instructions
