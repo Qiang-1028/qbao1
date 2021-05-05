@@ -87,8 +87,8 @@ df2.withColumn('WeatherStation', df2['value'].substr(5, 6)) \
 **ObservationDate** column into, **year**, **month**, **date** columns.
   - Print the schema
   - Place screenshot
-# record in log_parquet
-  ![Image of 1](images/1.png "Image of 1") 
+
+  ![Image of parquet](images/parquet.png "Image of parquet") 
 
 ### Notes
 
