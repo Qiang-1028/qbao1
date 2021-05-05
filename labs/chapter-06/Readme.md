@@ -79,8 +79,8 @@ df2.withColumn('WeatherStation', df2['value'].substr(5, 6)) \
 - Save the dataframe as an XML file
 - Open the newly saved XML file for reading again and print the schema and .count() values
   - Place screenshot
-# record in log_xml
-  ![Image of 1](images/1.png "Image of 1") 
+
+  ![Image of xml](images/xml.png "Image of xml") 
 
 - Save the dataframe as a Parquet file
 - Open the newly saved Parquet file for reading, create three additional columns splitting the
